@@ -118,7 +118,6 @@ header ul li a {
     margin: 0 20px;
     cursor: pointer;
     transition: 0.5s;
-    box-shadow: 7px 7px 20px rgb(34, 34, 34);
 }
 .thumb li:hover {
     transform: translateY(-15px);
@@ -126,4 +125,25 @@ header ul li a {
 
 .thumb li img {
     max-width: 60px;
+}
+
+.sci { 
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
 }
